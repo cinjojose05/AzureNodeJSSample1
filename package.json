@@ -1,0 +1,25 @@
+{
+  "name": "azurenodejssample1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/cinjojose05/AzureNodeJSSample1#readme",
+  "bugs": {
+    "url": "https://github.com/cinjojose05/AzureNodeJSSample1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinjojose05/AzureNodeJSSample1.git"
+  },
+  "license": "ISC",
+  "author": "Cinjo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mssql": "^12.2.0",
+    "nodemon": "^3.1.14"
+  }
+}
