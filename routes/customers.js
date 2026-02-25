@@ -5,8 +5,9 @@ const customerdb = require('../customerdb'); // Import the customerdb module
 // Define routes scoped to this router
 router.get('/', async (req, res) => {
     try {
-        const result = await customerdb.connectandQuery(); // Call the function to connect and query the database
-        res.json(result); // Send the result as JSON response
+        // const result = await customerdb.connectandQuery(); // Call the function to connect and query the database
+        // res.json(result); // Send the result as JSON response
+        res.send('Get all customers');
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
