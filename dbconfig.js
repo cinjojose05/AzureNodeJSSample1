@@ -1,14 +1,17 @@
 const config = {
     server: 'sample1dbserver.database.windows.net',
     database: 'sample1db',
+    user: 'cinjodbadmin',
+    password: 'Cinjo@12345',
+    port: 1433,
     authentication: {
-        options: {
-            userName: 'cinjodbadmin',
-            password: 'Cinjo@12345'
-        }
+       type: 'default'
     },
     options: {
-        trustServerCertificate: true
+        trustedConnection: true,
+        trustServerCertificate: true,
+        enableArithPort: true,
+        encrypt: true
     }
 
 };
