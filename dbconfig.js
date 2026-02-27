@@ -2,7 +2,7 @@ const config = {
     server: 'sample1dbserver.database.windows.net',
     database: 'sample1db',
     user: 'cinjodbadmin',
-    password: 'Cinjo@12345',
+    password: 'Aroos#123456',
     port: 1433,
     authentication: {
        type: 'default'
