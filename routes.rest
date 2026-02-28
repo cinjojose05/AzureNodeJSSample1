@@ -1,5 +1,9 @@
-GET http://localhost:3000/api/customers
+GET http://localhost/api/customers
 
 ###
 
 GET http://localhost:3000/api/customers/123
+
+###
+
+GET https://azurenodejssample1-h3ahaja4gpfyd9aq.centralus-01.azurewebsites.net/api/customers
